@@ -1,5 +1,7 @@
 package one.digitalinnovation.basecamp;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,8 +12,14 @@ public class Main {
         Calculadora.multiplicacao(7, 8);
         Calculadora.divisao(5, 2.5);
 
-////        Mensagem
-//        System.out.println("Exercício mensagem");
-//        Mensagem.obtermensagem
+//        Mensagem
+        System.out.println("Exercício mensagem");
+        Mensagem.obterMensagem(9);
+        Mensagem.obterMensagem(14);
+        Mensagem.obterMensagem(1);
     }
+
+////          Emprestimo
+//        System.out.printin("Exercício Emprestimo")
+
 }
